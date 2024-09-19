@@ -26,11 +26,6 @@ This project enhances satellite image analysis by incorporating an **Object-Awar
    - **Loss Function**: Binary Cross-Entropy.
    - **Output Activation**: Sigmoid.
 
-5. **Object-aware Refinement Module**:
-   - **Purpose**: Focuses on improving object edges in segmentation tasks.
-   - **Loss Function**: Weighted combination of Dice Loss and Boundary Loss.
-   - **Training**: Trained separately after the initial convergence of U-Net and YOLO.
-
 ## Preprocessing Tools
 - **QGIS (v3.28)**: For labeling satellite images (tags, bounding boxes, masks).
 - **GDAL (v3.5.0)**: Essential for geospatial data format handling and satellite imagery preprocessing.
@@ -52,17 +47,6 @@ This project enhances satellite image analysis by incorporating an **Object-Awar
 ## Web Application Deployment
 - **Framework**: Streamlit (v1.17).
 - **Purpose**: Interactive web app for model deployment, displaying results, and collecting user feedback.
-
-## Loss Functions Summary
-- **U-Net**: Dice Loss + Focal Loss.
-- **YOLO**: Binary Cross-Entropy, Mean Squared Error, Categorical Cross-Entropy.
-- **Classification Branch**: Binary Cross-Entropy.
-- **Object-aware Refinement**: Dice Loss + Boundary Loss.
-
-## Results
-The multi-task architecture achieves high accuracy in segmentation, object detection, and image-level classification by leveraging the shared features from the ResNet50 backbone. The Object-aware Refinement module significantly improves boundary detection in satellite images.
-
-## Getting Started
 
 ## Beta Features 
 - Tracking of similar features located within a particular region.

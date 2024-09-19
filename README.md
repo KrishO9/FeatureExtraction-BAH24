@@ -40,7 +40,7 @@ This project enhances satellite image analysis by incorporating an **Object-Awar
 - **Programming Language**: Python (v3.11).
 - **Deep Learning Framework**: TensorFlow (v2.11).
 - **Segmentation Architecture**: U-Net.
-- **Object Detection**: YOLO v10.
+- **Object Detection**: YOLO v8.
 - **Shared Backbone**: ResNet50 (pretrained and fine-tuned).
 
 ### Training Details

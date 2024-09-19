@@ -64,16 +64,8 @@ The multi-task architecture achieves high accuracy in segmentation, object detec
 
 ## Getting Started
 
-## Future Work
-- Integration of more advanced object detection models.
+## Beta Features 
+- Tracking of similar features located within a particular region.
 - Exploration of additional data augmentation techniques.
 - Real-time satellite image analysis for geospatial applications.
 
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For any queries or contributions, feel free to contact:  
-**Krish Kahnani**  
-B.Tech Computer Science and Engineering, IIIT Guwahati  
-Email: [your-email@example.com]  

@@ -1,8 +1,10 @@
+# Feature Extraction from Remote Sensing High-Resolution Data using AI/ML (Ex: High Tension Towers, Windmills, Electric Substations, Brick Kilns, Farm Bunds)
 
-# Satellite Image Analysis with Object-Aware Refinement in Multi-Task Deep Learning Architecture
-
-## Overview
-This project enhances satellite image analysis by incorporating an **Object-Aware Refinement Module** into a multi-task deep learning architecture. The solution integrates segmentation, object detection, and multi-label classification, using a shared backbone architecture based on **ResNet50**. The pipeline enables efficient feature extraction, segmentation, object detection, and classification of satellite images.
+### Developed an AI/ML solution to automatically identify and extract features from high-resolution satellite imagery, focusing on key structures like high tension towers, windmills, and substations. The system provides:
+- **Tags**: Object identification.
+- **Bounding Boxes**: Object localization.
+- **Masks**: Pixel-level segmentation.
+### The model is deployed via a Streamlit web application that captures user feedback, storing it in a MongoDB database for continuous improvement. This solution enhances infrastructure monitoring and land use analysis.
 
 ## Key Components
 1. **ResNet50 Backbone**:
@@ -33,7 +35,7 @@ This project enhances satellite image analysis by incorporating an **Object-Awar
 
 ## Model Development and Training
 - **Programming Language**: Python (v3.11).
-- **Deep Learning Framework**: TensorFlow (v2.11).
+- **Deep Learning Framework**: PyTorch
 - **Segmentation Architecture**: U-Net.
 - **Object Detection**: YOLO v8.
 - **Shared Backbone**: ResNet50 (pretrained and fine-tuned).

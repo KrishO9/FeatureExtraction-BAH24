@@ -27,6 +27,10 @@
    - **Architecture**: Global Average Pooling followed by fully connected layers (Dropout and Batch Normalization applied).
    - **Loss Function**: Binary Cross-Entropy.
    - **Output Activation**: Sigmoid.
+  
+![Basic flow of the Soltuion](image.png)
+
+
 
 ## Preprocessing Tools
 - **QGIS (v3.28)**: For labeling satellite images (tags, bounding boxes, masks).
